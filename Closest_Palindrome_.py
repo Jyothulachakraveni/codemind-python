@@ -1,7 +1,7 @@
 def fun(n):
     n=str(n)
     k=n[::-1]
-    if k==n:
+    if n==k:
         return k
     else:
         n=int(n)
@@ -9,7 +9,7 @@ def fun(n):
 def gun(n):
     n=str(n)
     k=n[::-1]
-    if k==n:
+    if n==k:
         return k
     else:
         n=int(n)
